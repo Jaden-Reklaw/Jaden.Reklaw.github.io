@@ -1,0 +1,42 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: 'comic sans MS', Georgia;
+	text-align: center;
+}
+
+body {
+	margin: 20px;
+}
+
+/* Adjusting the Bullted list into columns */
+.HL > ul {
+	column-count: 3;
+	list-style-type: none;
+}
+
+.CL > ul {
+	column-count: 2;
+}
+
+
+
+p {
+	text-align: left;
+}
+
+#example1 {
+  background-image: url(HPUL.png);
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat, repeat;
+  padding: 15px;
+  margin: 0px;
+}
+
+/*Adjusting Image */
+img {
+  border-radius: 50%;
+  width: 200px;
+}
